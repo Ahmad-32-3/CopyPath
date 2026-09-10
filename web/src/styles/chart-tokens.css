@@ -1,0 +1,20 @@
+/* Chart poles: named heads, random interventions, chance, task fit. */
+:root {
+  --chart-named: var(--good);
+  --chart-random: var(--amber);
+  --chart-chance: var(--fg-low);
+  --chart-task: var(--steel);
+  --chart-dead: var(--line-rule);
+
+  --chart-1: var(--chart-named);
+  --chart-2: var(--chart-random);
+  --chart-3: var(--chart-task);
+  --chart-4: var(--chart-chance);
+  --chart-5: var(--bad);
+
+  --chart-background: var(--bg-sunk);
+  --chart-foreground: var(--fg-hi);
+  --chart-foreground-muted: var(--fg-low);
+  --chart-label: var(--fg-low);
+  --chart-grid: var(--line-hairline);
+}
